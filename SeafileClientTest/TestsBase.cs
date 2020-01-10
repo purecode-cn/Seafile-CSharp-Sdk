@@ -25,7 +25,7 @@ namespace SeafileClientTest
             ServiceRoot = config["serviceRoot"];
             Api = SeafileClient.Api.GetApi(ServiceRoot);
             AccessToken = Api.Login(UserName, Password);
-            DefaultRepoId = Api.GetDefaultRepo(AccessToken).RepoId;
+            DefaultRepoId = Api.GetDefaultRepo(AccessToken).Id;
         }
     }
 
