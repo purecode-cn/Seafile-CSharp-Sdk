@@ -1,6 +1,6 @@
 # Seafile-CSharp-Sdk
 A C# Wrapper for Seafile Web Api
-
+Nuget: https://www.nuget.org/packages/PureCode.SeafileClient/
 ## Progress
 
 + [✔] account
